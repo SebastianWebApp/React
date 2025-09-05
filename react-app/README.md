@@ -13,7 +13,7 @@ Este proyecto es una aplicación básica desarrollada con React y TypeScript. In
 1. Clona el repositorio:
 
    ```sh
-   git clone <url-del-repositorio>
+   gh repo clone SebastianWebApp/React
    cd react-app
    ```
 

@@ -9,12 +9,45 @@ Este proyecto es un ejercicio básico desarrollado con React y TypeScript. La ap
 - Validaciones de entrada.
 - Interfaz sencilla y responsiva.
 
+## Diagrama de Estructura de Carpetas
+
+```
+ejercicio_crud/
+│
+├── src/
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   ├── components/
+│   │   ├── Formulario.tsx
+│   │   └── Lista.tsx
+│   └── utils/
+│       ├── Filtro.tsx
+│       └── Validaciones.tsx
+│
+├── public/
+│   └── vite.svg
+│
+├── package.json
+└── README.md
+```
+
+## Diagrama de Flujo de la Aplicación
+
+```mermaid
+flowchart TD
+    A[App.tsx] --> B[Formulario.tsx]
+    A --> C[Lista.tsx]
+    C --> D[Filtro.tsx]
+    B --> E[Validaciones.tsx]
+```
+
 ## Instalación
 
 1. Clona el repositorio:
 
    ```sh
-   git clone <url-del-repositorio>
+   gh repo clone SebastianWebApp/React
    cd ejercicio_crud
    ```
 
@@ -42,4 +75,4 @@ Este proyecto es un ejercicio básico desarrollado con React y TypeScript. La ap
 
 - React
 - TypeScript
-- Vite
+-

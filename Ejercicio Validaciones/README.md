@@ -13,7 +13,7 @@ Este proyecto es un ejercicio básico desarrollado con React y TypeScript. La ap
 1. Clona el repositorio:
 
    ```sh
-   git clone <url-del-repositorio>
+   gh repo clone SebastianWebApp/React
    cd Ejercicio\ Validaciones
    ```
 
